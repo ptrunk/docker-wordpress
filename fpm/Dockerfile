@@ -1,4 +1,4 @@
-FROM wordpress:php7.3-fpm-alpine
+FROM wordpress:php7.3-fpm
 
 ENV REDIS_VERSION=4.3.0
 
