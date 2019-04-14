@@ -4,7 +4,7 @@ LABEL description="Wordpress nginx proxy" \
       maintainer="Paul Trunk <mail@p7k.org>"
 
 ENV BACKEND_HOST=127.0.0.1 \
-    BACKEND_PORT=3000
+    BACKEND_PORT=9000
 
 RUN apk add --no-cache curl
 
