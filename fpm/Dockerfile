@@ -1,6 +1,6 @@
 FROM wordpress:php7.3-fpm
 
-ENV PHP_MEMORY_LIMIT=512MB \
+ENV PHP_MEMORY_LIMIT=512M \
     REDIS_VERSION=4.3.0
 
 ## Redis Support
