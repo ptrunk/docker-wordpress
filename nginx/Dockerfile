@@ -1,4 +1,4 @@
-FROM nginx:1.15.11-alpine
+FROM nginx:1.15.12-alpine
 
 LABEL description="Wordpress nginx proxy" \
       maintainer="Paul Trunk <mail@p7k.org>"
