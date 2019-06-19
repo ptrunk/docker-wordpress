@@ -1,4 +1,4 @@
-FROM wordpress:5.2.1
+FROM wordpress:5.2.2-php7.3-apache
 
 ENV PHP_MEMORY_LIMIT=512M \
     REDIS_VERSION=4.3.0
